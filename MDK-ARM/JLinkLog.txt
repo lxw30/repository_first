@@ -1,0 +1,146 @@
+T01AC 000:175.705   SEGGER J-Link V7.96i Log File
+T01AC 000:175.801   DLL Compiled: May 22 2024 16:10:08
+T01AC 000:175.811   Logging started @ 2024-07-03 06:20
+T01AC 000:175.820   Process: D:\2024\Keil\UV4\UV4.exe
+T01AC 000:175.830 - 175.828ms
+T01AC 000:175.843 JLINK_SetWarnOutHandler(...)
+T01AC 000:175.852 - 0.010ms
+T01AC 000:175.862 JLINK_OpenEx(...)
+T01AC 000:179.148   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T01AC 000:180.847   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T01AC 000:181.036   Decompressing FW timestamp took 160 us
+T01AC 000:188.907   Hardware: V9.30
+T01AC 000:188.948   S/N: 36310083
+T01AC 000:188.982   OEM: SEGGER
+T01AC 000:189.015   Feature(s): RDI, GDB, FlashDL, FlashBP, JFlash
+T01AC 000:191.237   Bootloader: (Could not read)
+T01AC 000:192.653   TELNET listener socket opened on port 19021
+T01AC 000:192.728   WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+T01AC 000:192.842   WEBSRV Webserver running on local port 19080
+T01AC 000:192.906   Looking for J-Link GUI Server exe at: D:\2024\Keil\ARM\Segger\JLinkGUIServer.exe
+T01AC 000:192.947   Looking for J-Link GUI Server exe at: D:\AppGallery\embedded software\jlink\JLink_V796i\JLinkGUIServer.exe
+T01AC 000:192.956   Forking J-Link GUI Server: D:\AppGallery\embedded software\jlink\JLink_V796i\JLinkGUIServer.exe
+T01AC 000:217.958   J-Link GUI Server info: "J-Link GUI server V7.96i "
+T01AC 000:220.695 - 44.826ms returns "O.K."
+T01AC 000:220.715 JLINK_GetEmuCaps()
+T01AC 000:220.721 - 0.004ms returns 0xB9FF7BBF
+T01AC 000:220.729 JLINK_TIF_GetAvailable(...)
+T01AC 000:221.123 - 0.393ms
+T01AC 000:221.133 JLINK_SetErrorOutHandler(...)
+T01AC 000:221.136 - 0.003ms
+T01AC 000:221.152 JLINK_ExecCommand("ProjectFile = "D:\2024\1xinling\9.qxqy\qxqy_stm32f407\MDK-ARM\JLinkSettings.ini"", ...). 
+T01AC 000:230.641   Ref file found at: D:\2024\Keil\ARM\Segger\JLinkDevices.ref
+T01AC 000:230.773   REF file references invalid XML file: D:\AppGallery\embedded software\jlink\JLink_V796i\JLinkDevices.xml
+T01AC 000:268.247 - 47.094ms returns 0x00
+T01AC 000:268.298 JLINK_ExecCommand("Device = STM32F407VETx", ...). 
+T01AC 000:269.655   Device "STM32F407VE" selected.
+T01AC 000:269.856 - 1.552ms returns 0x00
+T01AC 000:269.865 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T01AC 000:269.871 - 0.001ms returns 0x01
+T01AC 000:269.880 JLINK_GetHardwareVersion()
+T01AC 000:269.883 - 0.003ms returns 93000
+T01AC 000:269.889 JLINK_GetDLLVersion()
+T01AC 000:269.892 - 0.005ms returns 79609
+T01AC 000:269.897 JLINK_GetOEMString(...)
+T01AC 000:269.901 JLINK_GetFirmwareString(...)
+T01AC 000:269.904 - 0.003ms
+T01AC 000:269.910 JLINK_GetDLLVersion()
+T01AC 000:269.913 - 0.002ms returns 79609
+T01AC 000:269.917 JLINK_GetCompileDateTime()
+T01AC 000:269.919 - 0.002ms
+T01AC 000:269.924 JLINK_GetFirmwareString(...)
+T01AC 000:269.927 - 0.003ms
+T01AC 000:269.931 JLINK_GetHardwareVersion()
+T01AC 000:269.934 - 0.002ms returns 93000
+T01AC 000:269.938 JLINK_GetSN()
+T01AC 000:269.941 - 0.003ms returns 36310083
+T01AC 000:269.945 JLINK_GetOEMString(...)
+T01AC 000:269.950 JLINK_TIF_Select(JLINKARM_TIF_JTAG)
+T01AC 000:272.433 - 2.482ms returns 0x00
+T01AC 000:272.447 JLINK_HasError()
+T01AC 000:272.455 JLINK_SetSpeed(5000)
+T01AC 000:272.753 - 0.298ms
+T01AC 000:273.229 JLINK_HasError()
+T01AC 000:273.249 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T01AC 000:273.256 - 0.006ms returns JLINKARM_RESET_TYPE_NORMAL
+T01AC 000:273.267 JLINK_Reset()
+T01AC 000:273.886   InitTarget() start
+T01AC 000:273.899    J-Link Script File: Executing InitTarget()
+T01AC 000:274.328   JTAG selected. Identifying JTAG Chain...
+T01AC 000:275.744   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T01AC 000:276.249   Error: Scanning JTAG chain failed.
+T01AC 000:276.258   Can not attach to CPU. Trying connect under reset.
+T01AC 000:328.071   JTAG selected. Identifying JTAG Chain...
+T01AC 000:329.421   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T01AC 000:329.947   Error: Scanning JTAG chain failed.
+T01AC 000:329.954   Connecting to CPU via connect under reset failed.
+T01AC 000:380.820   InitTarget() end - Took 106ms
+T01AC 000:380.883   Connect failed. Resetting via Reset pin and trying again.
+T01AC 000:443.874   InitTarget() start
+T01AC 000:444.119    J-Link Script File: Executing InitTarget()
+T01AC 000:444.669   JTAG selected. Identifying JTAG Chain...
+T01AC 000:446.199   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T01AC 000:446.770   Error: Scanning JTAG chain failed.
+T01AC 000:446.802   Can not attach to CPU. Trying connect under reset.
+T01AC 000:497.787   JTAG selected. Identifying JTAG Chain...
+T01AC 000:499.708   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T01AC 000:500.479   Error: Scanning JTAG chain failed.
+T01AC 000:500.500   Connecting to CPU via connect under reset failed.
+T01AC 000:551.051   InitTarget() end - Took 106ms
+T01AC 000:551.094 - 277.827ms
+T01AC 000:551.107 JLINK_GetIdData(pIdData)
+T01AC 000:551.592   InitTarget() start
+T01AC 000:551.598    J-Link Script File: Executing InitTarget()
+T01AC 000:552.015   JTAG selected. Identifying JTAG Chain...
+T01AC 000:553.186   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T01AC 000:553.766   Error: Scanning JTAG chain failed.
+T01AC 000:553.771   Can not attach to CPU. Trying connect under reset.
+T01AC 000:605.352   JTAG selected. Identifying JTAG Chain...
+T01AC 000:606.942   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T01AC 000:607.769   Error: Scanning JTAG chain failed.
+T01AC 000:607.800   Connecting to CPU via connect under reset failed.
+T01AC 000:658.914   InitTarget() end - Took 107ms
+T01AC 000:658.978   Connect failed. Resetting via Reset pin and trying again.
+T01AC 000:722.498   InitTarget() start
+T01AC 000:722.532    J-Link Script File: Executing InitTarget()
+T01AC 000:722.967   JTAG selected. Identifying JTAG Chain...
+T01AC 000:724.280   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T01AC 000:724.900   Error: Scanning JTAG chain failed.
+T01AC 000:724.909   Can not attach to CPU. Trying connect under reset.
+T01AC 000:776.426   JTAG selected. Identifying JTAG Chain...
+T01AC 000:777.983   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T01AC 000:778.600   Error: Scanning JTAG chain failed.
+T01AC 000:778.616   Connecting to CPU via connect under reset failed.
+T01AC 000:829.427   InitTarget() end - Took 106ms
+T01AC 000:829.465 - 278.357ms
+T01AC 000:829.485 JLINK_GetIdData(pIdData)
+T01AC 000:830.186   InitTarget() start
+T01AC 000:830.216    J-Link Script File: Executing InitTarget()
+T01AC 000:830.672   JTAG selected. Identifying JTAG Chain...
+T01AC 000:832.004   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T01AC 000:832.588   Error: Scanning JTAG chain failed.
+T01AC 000:832.603   Can not attach to CPU. Trying connect under reset.
+T01AC 000:884.207   JTAG selected. Identifying JTAG Chain...
+T01AC 000:885.633   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T01AC 000:886.190   Error: Scanning JTAG chain failed.
+T01AC 000:886.206   Connecting to CPU via connect under reset failed.
+T01AC 000:937.535   InitTarget() end - Took 107ms
+T01AC 000:937.620   Connect failed. Resetting via Reset pin and trying again.
+T01AC 001:000.212   InitTarget() start
+T01AC 001:000.237    J-Link Script File: Executing InitTarget()
+T01AC 001:000.701   JTAG selected. Identifying JTAG Chain...
+T01AC 001:002.084   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T01AC 001:002.590   Error: Scanning JTAG chain failed.
+T01AC 001:002.596   Can not attach to CPU. Trying connect under reset.
+T01AC 001:053.347   JTAG selected. Identifying JTAG Chain...
+T01AC 001:054.722   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T01AC 001:055.218   Error: Scanning JTAG chain failed.
+T01AC 001:055.226   Connecting to CPU via connect under reset failed.
+T01AC 001:106.293   InitTarget() end - Took 106ms
+T01AC 001:106.371 - 276.885ms
+T01AC 001:118.355 JLINK_GetFirmwareString(...)
+T01AC 001:118.392 - 0.037ms
+T01AC 003:536.967 JLINK_Close()
+T01AC 003:546.845 - 9.876ms
+T01AC 003:546.864   
+T01AC 003:546.867   Closed
