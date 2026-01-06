@@ -65,6 +65,12 @@ SemaphoreHandle_t xMutex;	//ADC1
 SemaphoreHandle_t xMutex2;	//ADC2
 
 
+/*
+、、、、、、、、、、、
+test
+*/
+
+
 /* USER CODE END 0 */
 
 /**
